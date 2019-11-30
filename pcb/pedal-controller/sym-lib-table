@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name pedal-controller)(type Legacy)(uri ${KIPRJMOD}/pedal-controller.lib)(options "")(descr ""))
+  (lib (name arduino-kicad)(type Legacy)(uri /home/atreides/Documents/pedal/pcb/pedal-controller/arduino-kicad-library/arduino.lib)(options "")(descr ""))
+)

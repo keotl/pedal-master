@@ -1,0 +1,66 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L pedal-controller:ACJS-MHDR_Jack_Connector_S U?
+U 1 1 5DE2885C
+P 10550 1350
+F 0 "U?" H 11228 1621 50  0000 L CNN
+F 1 "ACJS-MHDR_Jack_Connector_S" H 11228 1530 50  0000 L CNN
+F 2 "" H 10550 1350 50  0001 C CNN
+F 3 "" H 10550 1350 50  0001 C CNN
+	1    10550 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduino-kicad:Arduino_Micro_Socket XA?
+U 1 1 5DE2A491
+P 8800 1750
+F 0 "XA?" H 8800 2987 60  0000 C CNN
+F 1 "Arduino_Micro_Socket" H 8800 2881 60  0000 C CNN
+F 2 "" H 10600 5500 60  0001 C CNN
+F 3 "https://store.arduino.cc/arduino-micro" H 10600 5500 60  0001 C CNN
+	1    8800 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L pedal-controller:ACJS-MHDR_Jack_Connector_S U?
+U 1 1 5DE3586A
+P 10550 1900
+F 0 "U?" H 11228 2171 50  0000 L CNN
+F 1 "ACJS-MHDR_Jack_Connector_S" H 11228 2080 50  0000 L CNN
+F 2 "" H 10550 1900 50  0001 C CNN
+F 3 "" H 10550 1900 50  0001 C CNN
+	1    10550 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L pedal-controller:ACJS-MHDR_Jack_Connector_S U?
+U 1 1 5DE360B6
+P 10550 2450
+F 0 "U?" H 11228 2721 50  0000 L CNN
+F 1 "ACJS-MHDR_Jack_Connector_S" H 11228 2630 50  0000 L CNN
+F 2 "" H 10550 2450 50  0001 C CNN
+F 3 "" H 10550 2450 50  0001 C CNN
+	1    10550 2450
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	7500 2250 7350 2250
+Wire Bus Line
+	7350 2250 7350 3150
+Wire Bus Line
+	7350 3150 10950 3150
+$EndSCHEMATC

@@ -1,0 +1,46 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 10Kresistor
+#
+DEF 10Kresistor U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "10Kresistor" 50 -50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 300 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# ACJS-MHDR_Jack_Connector_S
+#
+DEF ACJS-MHDR_Jack_Connector_S U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "ACJS-MHDR_Jack_Connector_S" 250 250 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -150 400 650 50 0 1 0 N
+X ~ 1 500 0 200 U 50 50 0 0 U
+X ~ 2 250 0 200 U 50 50 0 0 U
+X ~ 3 0 0 200 U 50 50 0 0 U
+X ~ 4 0 449 200 D 50 50 0 0 U
+X ~ 5 250 449 200 D 50 50 0 0 U
+X ~ 6 500 449 200 D 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# ArduinoMicro
+#
+DEF ArduinoMicro U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "ArduinoMicro" 0 -50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
+#End Library

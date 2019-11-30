@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name pedal-controller)(type KiCad)(uri ${KIPRJMOD}/pedal-controller.pretty)(options "")(descr ""))
+  (lib (name arduino-kicad)(type KiCad)(uri /home/atreides/Documents/pedal/pcb/pedal-controller/arduino-kicad-library)(options "")(descr ""))
+)
