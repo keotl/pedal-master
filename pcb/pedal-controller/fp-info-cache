@@ -1,4 +1,4 @@
-4725399438546
+6300684368546
 pedal-controller
 ACJS-MHDR_Jack_Connector
 
@@ -13,6 +13,13 @@ Arduino_Micro
 0
 34
 34
+pedal-controller
+mounting-hole
+
+
+0
+1
+1
 pedal-controller
 resistor
 
