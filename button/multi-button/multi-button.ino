@@ -1,7 +1,7 @@
 #include <Keyboard.h>
 
 const int BUTTONS[3] = {3,4,5};
-const int KEYS[3] = {KEY_LEFT_CTRL, KEY_LEFT_SHIFT, KEY_LEFT_ALT};
+const int KEYS[3] = {KEY_LEFT_CTRL, KEY_LEFT_ALT, KEY_LEFT_SHIFT};
 
 int buttonStates[3] = {0,0,0};
 bool keyboardStates[3] = {false, false, false};
