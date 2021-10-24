@@ -7,8 +7,10 @@ const int BUTTONS[3] = {3,4,5};
 const int KEYS[3] = {KEY_LEFT_CTRL, KEY_LEFT_ALT, KEY_LEFT_SHIFT};
 
 // Set base polarity here for each pedal.
-// Inverted pedals send 5V when open, 0V when closed. (e.g. Yamaha FC4A)
-const bool INVERTED[3] = {true,false,false};
+// Inverted pedals send 5V when open, 0V when closed.
+// For pedals compatible with Yamaha keyboards, set to `true`.
+// By default, leave to false.
+const bool INVERTED[3] = {false,false,false};
 
 // FIRMWARE
 int buttonStates[3] = {0,0,0};
