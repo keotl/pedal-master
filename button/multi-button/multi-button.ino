@@ -2,6 +2,7 @@
 
 const int BUTTONS[3] = {3,4,5};
 const int KEYS[3] = {KEY_LEFT_CTRL, KEY_LEFT_ALT, KEY_LEFT_SHIFT};
+const bool INVERTED[3] = {true,false,false};
 
 int buttonStates[3] = {0,0,0};
 bool keyboardStates[3] = {false, false, false};
@@ -21,9 +22,18 @@ void decrementState(int i) {
 
 void readButton(int i) {
   if (digitalRead(BUTTONS[i]) == HIGH) {
-    incrementState(i);
+    if (INVERTED[i]) {
+      decrementState(i);
+    } else {
+      incrementState(i);
+    }
   } else {
-    decrementState(i);
+    if (INVERTED[i]) {
+      incrementState(i);
+    }
+    else {
+      decrementState(i);
+    }
   }
 }
 
