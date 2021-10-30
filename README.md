@@ -1,5 +1,6 @@
 # Pedal Master
 ![demo.gif](demo.gif)
+
 A feet operated micro-keyboard design. Now, you can use digital
 piano/synthesizer pedals to control your keyboard!
 
@@ -15,8 +16,9 @@ See the
 for an overview of the design process.
 
 # Rev2
-![pcb](schematic.jpg)
+![pcb](schematic.png)
 ![case](case.jpg)
+
 The latest revision of the Pedal Master is the rev2. See [the buildguide](buildguide/buildguide-rev2.md).
 Fabrication files for the PCB and the case are available in this repository.
 
