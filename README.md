@@ -16,8 +16,8 @@ See the
 for an overview of the design process.
 
 # Rev2
-![pcb](schematic.png)
-![case](case.jpg)
+<img src="schematic.png" width="250">
+<img src="case.jpg" width="250">
 
 The latest revision of the Pedal Master is the rev2. See [the buildguide](buildguide/buildguide-rev2.md).
 Fabrication files for the PCB and the case are available in this repository.
