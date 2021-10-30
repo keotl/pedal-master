@@ -4,6 +4,10 @@
 A feet operated micro-keyboard design. Now, you can use digital
 piano/synthesizer pedals to control your keyboard!
 
+Compatible with digital piano pedals with a 1/4" connector
+([example](example-pedal.jpg)), inverted and standard. See [the
+buildguide](buildguide/buildguide-rev2.md) for more details.
+
 ## Motivation
 The primary use-case for this is to use pedals to hold modifier keys
 such as CTRL, SHIFT and ALT while operating an ordinary keyboard
